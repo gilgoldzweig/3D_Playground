@@ -263,7 +263,7 @@ int main() {
 
         mat4 lightModel = mat4(1.0f);
         lightModel = translate(lightModel, dirLight.direction);
-        lightModel = scale(model, vec3(0.4f)); // a smaller cube
+        lightModel = scale(lightModel, vec3(0.4f)); // a smaller cube
         updateMVP(lightShader, lightModel);
         lightShader.setVec3("lightColor", dirLight.color);
 

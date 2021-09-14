@@ -1720,12 +1720,6 @@ sstream
 iostream
 -
 
-/Users/gilgoldzweig/projects/3D playground/src/Texture.cpp
-Texture.h
-/Users/gilgoldzweig/projects/3D playground/src/Texture.h
-vendor/stb_image/stb_image.h
-/Users/gilgoldzweig/projects/3D playground/src/vendor/stb_image/stb_image.h
-
 /Users/gilgoldzweig/projects/3D playground/src/Texture.h
 GLDebug.h
 /Users/gilgoldzweig/projects/3D playground/src/GLDebug.h
@@ -1765,38 +1759,6 @@ Model.h
 /Users/gilgoldzweig/projects/3D playground/src/application.h
 
 /Users/gilgoldzweig/projects/3D playground/src/shapes.h
-
-/Users/gilgoldzweig/projects/3D playground/src/vendor/stb_image/stb_image.h
-stb_image.h
-/Users/gilgoldzweig/projects/3D playground/src/vendor/stb_image/stb_image.h
-stdio.h
--
-stdlib.h
--
-stdarg.h
--
-stddef.h
--
-stdlib.h
--
-string.h
--
-limits.h
--
-math.h
--
-stdio.h
--
-assert.h
--
-stdint.h
--
-emmintrin.h
--
-intrin.h
--
-arm_neon.h
--
 
 /usr/local/include/assimp/Compiler/poppack1.h
 
