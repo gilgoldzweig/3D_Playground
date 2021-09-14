@@ -1,0 +1,18 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/Users/gilgoldzweig/projects/3D playground"
+Your Source Directory contains spaces. If you experience problems when compiling, this can be the cause.
+Your Build Directory contains spaces. If you experience problems when compiling, this can be the cause.
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Cocoa for window creation
+CMake Deprecation Warning at CMakeLists.txt:24 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/gilgoldzweig/projects/3D playground/cmake-build-debug

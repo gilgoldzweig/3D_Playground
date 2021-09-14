@@ -1,0 +1,2328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tutorials"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw-3.3.4\;CMake Files\external\glfw-3.3.4\src\;CMake Files\external\glfw-3.3.4\examples\;CMake Files\external\glfw-3.3.4\CMake\;CMake Files\external\glfw-3.3.4\tests\;CMake Files\external\rpavlik-cmake-modules-fe2273\;CMake Files\external\rpavlik-cmake-modules-fe2273\launcher-templates\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-5.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glew-1.13.0/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/src/vendor"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glew-1.13.0/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/src/vendor"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW_1130">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/libGLEW_1130.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include/GLFW"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glew-1.13.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 GLEW_1130"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW_1130/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/libGLEW_1130.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include/GLFW"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glew-1.13.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 GLEW_1130/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/wave.app/Contents/MacOS/wave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 wave"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/wave.app/Contents/MacOS/wave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 wave/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/simple.app/Contents/MacOS/simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 simple"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/simple.app/Contents/MacOS/simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 simple/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/sharing.app/Contents/MacOS/sharing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 sharing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/sharing.app/Contents/MacOS/sharing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 sharing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/particles.app/Contents/MacOS/particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 particles"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/particles.app/Contents/MacOS/particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 particles/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/heightmap.app/Contents/MacOS/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/heightmap.app/Contents/MacOS/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/splitview.app/Contents/MacOS/splitview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 splitview"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/splitview.app/Contents/MacOS/splitview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 splitview/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offscreen">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/offscreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 offscreen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offscreen/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/offscreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 offscreen/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/gears.app/Contents/MacOS/gears" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 gears"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/gears.app/Contents/MacOS/gears" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 gears/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/boing.app/Contents/MacOS/boing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 boing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples/boing.app/Contents/MacOS/boing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 boing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-vulkan">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/triangle-vulkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 triangle-vulkan"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-vulkan/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/triangle-vulkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 triangle-vulkan/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/clipboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clipboard"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/clipboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clipboard/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/title.app/Contents/MacOS/title" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 title"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/title.app/Contents/MacOS/title" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 title/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/timeout.app/Contents/MacOS/timeout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 timeout"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/timeout.app/Contents/MacOS/timeout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 timeout/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/threads.app/Contents/MacOS/threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 threads"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/threads.app/Contents/MacOS/threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 threads/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opacity">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/opacity.app/Contents/MacOS/opacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 opacity"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opacity/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/opacity.app/Contents/MacOS/opacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 opacity/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/gamma.app/Contents/MacOS/gamma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 gamma"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/gamma.app/Contents/MacOS/gamma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 gamma/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/tearing.app/Contents/MacOS/tearing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 tearing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/tearing.app/Contents/MacOS/tearing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 tearing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/iconify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 iconify"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/iconify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 iconify/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/joysticks.app/Contents/MacOS/joysticks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 joysticks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/joysticks.app/Contents/MacOS/joysticks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 joysticks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/windows.app/Contents/MacOS/windows" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/windows.app/Contents/MacOS/windows" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inputlag">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/inputlag.app/Contents/MacOS/inputlag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 inputlag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inputlag/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/inputlag.app/Contents/MacOS/inputlag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 inputlag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/empty.app/Contents/MacOS/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/empty.app/Contents/MacOS/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/reopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 reopen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/reopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 reopen/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/msaa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 msaa"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/msaa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 msaa/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/cursor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 cursor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/cursor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 cursor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/glfwinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 glfwinfo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/glfwinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/monitors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 monitors"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/monitors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 monitors/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/events" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 events"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/events" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 events/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/icon.app/Contents/MacOS/icon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 icon"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon/fast">
+				<Option output="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests/icon.app/Contents/MacOS/icon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps"/>
+					<Add directory="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 icon/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gilgoldzweig/projects/3D\ playground/cmake-build-debug/external/glfw-3.3.4/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/cmake-build-debug/external/glfw-3.3.4/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glew-1.13.0/src/glew.c">
+			<Option target="GLEW_1130"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/getopt.c">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="iconify"/>
+			<Option target="windows"/>
+			<Option target="inputlag"/>
+			<Option target="msaa"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/getopt.h">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="iconify"/>
+			<Option target="windows"/>
+			<Option target="inputlag"/>
+			<Option target="msaa"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/glad/gl.h">
+			<Option target="wave"/>
+			<Option target="simple"/>
+			<Option target="sharing"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="offscreen"/>
+			<Option target="gears"/>
+			<Option target="boing"/>
+			<Option target="clipboard"/>
+			<Option target="title"/>
+			<Option target="timeout"/>
+			<Option target="threads"/>
+			<Option target="opacity"/>
+			<Option target="gamma"/>
+			<Option target="tearing"/>
+			<Option target="iconify"/>
+			<Option target="joysticks"/>
+			<Option target="windows"/>
+			<Option target="inputlag"/>
+			<Option target="empty"/>
+			<Option target="reopen"/>
+			<Option target="msaa"/>
+			<Option target="cursor"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="events"/>
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/glad/vulkan.h">
+			<Option target="triangle-vulkan"/>
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/glad_gl.c">
+			<Option target="wave"/>
+			<Option target="simple"/>
+			<Option target="sharing"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="offscreen"/>
+			<Option target="gears"/>
+			<Option target="boing"/>
+			<Option target="clipboard"/>
+			<Option target="title"/>
+			<Option target="timeout"/>
+			<Option target="threads"/>
+			<Option target="opacity"/>
+			<Option target="gamma"/>
+			<Option target="tearing"/>
+			<Option target="iconify"/>
+			<Option target="joysticks"/>
+			<Option target="windows"/>
+			<Option target="inputlag"/>
+			<Option target="empty"/>
+			<Option target="reopen"/>
+			<Option target="msaa"/>
+			<Option target="cursor"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="events"/>
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/glad_vulkan.c">
+			<Option target="triangle-vulkan"/>
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/tinycthread.c">
+			<Option target="particles"/>
+			<Option target="threads"/>
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/deps/tinycthread.h">
+			<Option target="particles"/>
+			<Option target="threads"/>
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/boing.c">
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/gears.c">
+			<Option target="gears"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/glfw.icns">
+			<Option target="wave"/>
+			<Option target="simple"/>
+			<Option target="sharing"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="offscreen"/>
+			<Option target="gears"/>
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/heightmap.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/offscreen.c">
+			<Option target="offscreen"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/particles.c">
+			<Option target="particles"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/sharing.c">
+			<Option target="sharing"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/simple.c">
+			<Option target="simple"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/splitview.c">
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/wave.c">
+			<Option target="wave"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/clipboard.c">
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/cursor.c">
+			<Option target="cursor"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/empty.c">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/events.c">
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/gamma.c">
+			<Option target="gamma"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/glfwinfo.c">
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/icon.c">
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/iconify.c">
+			<Option target="iconify"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/inputlag.c">
+			<Option target="inputlag"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/joysticks.c">
+			<Option target="joysticks"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/monitors.c">
+			<Option target="monitors"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/msaa.c">
+			<Option target="msaa"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/opacity.c">
+			<Option target="opacity"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/reopen.c">
+			<Option target="reopen"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/tearing.c">
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/threads.c">
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/timeout.c">
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/title.c">
+			<Option target="title"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/triangle-vulkan.c">
+			<Option target="triangle-vulkan"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/windows.c">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Camera.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/GLDebug.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/GLDebug.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Mesh.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Mesh.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Model.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Model.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Shader.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Texture.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/Texture.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/application.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/application.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/logger/Logger.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/logger/Logger.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/shapes.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imconfig.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_demo.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_impl_glfw.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_impl_glfw.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_impl_opengl3.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_impl_opengl3.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_impl_opengl3_loader.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_internal.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_tables.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imgui_widgets.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imstb_rectpack.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imstb_textedit.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/imgui/imstb_truetype.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/stb_image/stb_image.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/src/vendor/stb_image/stb_image.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\src\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\src\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\src\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\src\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\examples\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/glfw-3.3.4/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.3.4\tests\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/rpavlik-cmake-modules-fe2273/CleanDirectoryList.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/rpavlik-cmake-modules-fe2273/CreateLaunchers.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/rpavlik-cmake-modules-fe2273/FindGDB.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/rpavlik-cmake-modules-fe2273/MSVCMultipleProcessCompile.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/external/rpavlik-cmake-modules-fe2273/launcher-templates/targetlauncher.sh.in">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\launcher-templates\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/../../../../usr/local/lib/cmake/assimp-5.0/ASSIMPConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/../../../../usr/local/lib/cmake/assimp-5.0/ASSIMPConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/../../../../usr/local/lib/cmake/assimp-5.0/assimpTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/gilgoldzweig/projects/3D playground/../../../../usr/local/lib/cmake/assimp-5.0/assimpTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-5.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
